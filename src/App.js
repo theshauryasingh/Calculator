@@ -1,26 +1,53 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+
+        <header className="App-header"> Calculator </header>
+
+        <div  className="App-calculator">
+          <div  className="calculator">
+            <div className="row">
+              <span className="App-calculator-display">0</span>
+            </div>
+            <div className="row">
+            <button className="App-calculator-button">7</button>
+            <button className="App-calculator-button">8</button>
+            <button className="App-calculator-button">9</button>
+            <button className="App-calculator-button">/</button>
+            </div>
+            <div className="row">
+            <button className="App-calculator-button">4</button>
+            <button className="App-calculator-button">5</button>
+            <button className="App-calculator-button">6</button>
+            <button className="App-calculator-button">*</button>
+            </div>
+            <div className="row">
+            <button className="App-calculator-button">1</button>
+            <button className="App-calculator-button">2</button>
+            <button className="App-calculator-button">3</button>
+            <button className="App-calculator-button">-</button>
+            </div>
+            <div className="row">
+            <button className="App-calculator-button">clr</button>
+            <button className="App-calculator-button">0</button>
+            <button className="App-calculator-button">=</button>
+            <button className="App-calculator-button">+</button>
+            </div>
+          </div>
+        </div>
+
+        <footer className="App-footer">
+          Author: Shaurya Singh
+        </footer>
+
+      </div>
+    );
+  }
 }
 
 export default App;
