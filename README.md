@@ -2,7 +2,7 @@
 
 Calculator built on React
 
-![screenshot](https://github.com/theshauryasingh/Calculator/screenshot.png)
+![screenshot](https://github.com/theshauryasingh/Calculator/blob/master/screenshot.png)
 
 ## Built With
 
