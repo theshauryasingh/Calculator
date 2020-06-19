@@ -45,19 +45,6 @@
   justify-content: center;
 }
 
-.App-calculator-display{
-  height: 50px;
-  width: 100%;
-  color: white;
-  text-align: right;padding: 0% 2% 0% 2%;
-}
-
-
-.App-calculator-button{
-  height: 50px;
-  width: 50px;
-  border-radius: 15px;
-}
 
 
 .App-footer {

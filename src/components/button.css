@@ -1,0 +1,5 @@
+.App-calculator-button, .clear-btn{
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+}
