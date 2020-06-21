@@ -15,7 +15,7 @@ Calculator built on React
 
 ## Live Demo
 
-[updating link. Come back later]
+https://affectionate-shirley-fd5739.netlify.app/
 
 ## Authors
 
